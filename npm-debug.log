@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/bin/node',
+1 verbose cli   '/home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'install' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 verbose stack Error: missing script: install
+4 verbose stack     at run (/home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/lib/node_modules/npm/lib/run-script.js:151:19)
+4 verbose stack     at /home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/lib/node_modules/npm/lib/run-script.js:61:5
+4 verbose stack     at /home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (/home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+4 verbose stack     at final (/home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+4 verbose stack     at then (/home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at /home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:243:12
+4 verbose stack     at /home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+4 verbose stack     at tryToString (fs.js:426:3)
+4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:413:12)
+5 verbose cwd /home/MEDIAIQDIGITAL/sagar/hackiq-2018/new-adv-ipfs
+6 error Linux 4.15.0-24-generic
+7 error argv "/home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/bin/node" "/home/MEDIAIQDIGITAL/sagar/.nvm/versions/node/v7.4.0/bin/npm" "run" "install"
+8 error node v7.4.0
+9 error npm  v4.0.5
+10 error missing script: install
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
